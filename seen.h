@@ -3,21 +3,25 @@
 #include <winuser.h>
 #include <commctrl.h>
 #include "resource.h"
-#include "..\..\miranda32\random\plugins\newpluginapi.h"
-#include "..\..\miranda32\database\m_database.h"
-#include "..\..\miranda32\random\langpack\m_langpack.h"
+#include "./miranda/include/newpluginapi.h"
+#include "./miranda/include/m_database.h"
+#include "./miranda/include/m_langpack.h"
 
-#include "..\..\miranda32\core\m_system.h"
-#include "..\..\miranda32\random\skin\m_skin.h"
-#include "..\..\miranda32\random\utils\m_utils.h"
-#include "..\..\miranda32\ui\options\m_options.h"
-#include "..\..\miranda32\ui\userinfo\m_userinfo.h"
-#include "..\..\miranda32\ui\contactlist\m_clist.h"
-#include "..\..\miranda32\ui\userinfo\m_userinfo.h"
-#include "..\..\miranda32\random\contacts\m_contacts.h"
-#include "..\..\miranda32\sendrecv\message\m_message.h"
-#include "..\..\miranda32\protocols\protocols\m_protosvc.h"
-#include "..\..\miranda32\protocols\protocols\m_protocols.h"
+#include "./miranda/include/m_system.h"
+#include "./miranda/include/m_skin.h"
+#include "./miranda/include/m_utils.h"
+#include "./miranda/include/m_options.h"
+#include "./miranda/include/m_userinfo.h"
+#include "./miranda/include/m_clist.h"
+#include "./miranda/include/m_userinfo.h"
+#include "./miranda/include/m_contacts.h"
+#include "./miranda/include/m_message.h"
+#include "./miranda/include/m_protosvc.h"
+#include "./miranda/include/m_protocols.h"
+
+
+#define GWL_WNDPROC         (-4)
+#define GWL_USERDATA        (-21)
 
 
 

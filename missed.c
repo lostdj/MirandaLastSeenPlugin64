@@ -1,6 +1,6 @@
 #include "seen.h"
 
-#include "..\..\miranda32\random\ignore\m_ignore.h"
+#include "./miranda/include/m_ignore.h"
 
 
 
